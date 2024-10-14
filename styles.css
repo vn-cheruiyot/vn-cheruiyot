@@ -92,3 +92,21 @@ padding-right: 20%;
     text-align: center;
     margin-left: 4%;
     }
+
+    @media screen and  (max-width:1280px){
+        body {
+            margin-left: 15px;
+        }
+        p {
+            margin-right:22px;
+        }
+        h3 {
+            margin-right: 22px;
+        }
+        .sidenav {display:none;}
+        .navbar {font-size: 18px;}
+        .main {
+            margin-left: 15px;
+            padding-left: 1.5%;
+        }
+    }
